@@ -1,54 +1,54 @@
 body{
     padding: 0;
     margin: 0;
+    font-family: 'Montserrat';
 }
 a{
     color: #fff;
     text-decoration: none;
 }
 /* ----------------------HEADER START--------------------- */
-.header {
-    max-width: 1440px;
-    background-image: url(/img/back-ground.png);
-    height: 880px;
-    
+.container{
+    margin:  0  auto;
+    padding: 0 15px;
+    max-width: 1083px;
 }
-.container {
 
+
+.header{
     background: #52503B;
-    max-width: 1200px;
-    padding: 8px 120px 19px 120px;
+    height: 80px;
+    width: 100%;
 }
-.header__inner {
-   
-}
-.header__inner-top{
-    
+.header__container{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.menu__items{
+.logo{
+    margin: 17px;
+}
+.nav{
+}
+.nav__items{
     display: flex;
+    justify-content: space-between;
+    width: 253px;
+}
+.button{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 117px;
+    height: 42px;
+    color: #52503B;
     align-items: center;
     justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 }
-.menu__item{
-    padding-right: 24px;
-    list-style-type: none;
-}
-.logo {
-}
-.logo__link {
-}
-.logo__link-img {
-}
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: end;
-}
-.menu__btn {
-}
-
+/* .nav{
+    order: -1;
+} */
 /* ----------------------HEADER END--------------------- */
