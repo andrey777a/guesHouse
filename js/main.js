@@ -1,7 +1,11 @@
-$('.one-time').slick({
-    dots: true,
-    infinite: true,
-    speed: 300,
-    slidesToShow: 1,
-    adaptiveHeight: true
+
+$(document).ready(function() {
+    $(".slider").slick({
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $ ('.prev1'),
+      nextArrow: $ ('.next1'),
+      
+    });
   });

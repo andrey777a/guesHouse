@@ -17,10 +17,10 @@ a{
 }
 
 
-
 .header{
     position: absolute;
     background: #52503B;
+
     height: 80px;
     width: 100%;
     z-index: 5;
@@ -29,6 +29,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: space-between;
+    /* padding-left: 720px; */
 }
 .logo{
     margin: 17px;
@@ -174,9 +175,16 @@ a{
     color: #52503B;
 }
 .bg-interior{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(/img/interier.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    height: 600px;
+
+    
 }
 
 
@@ -310,3 +318,126 @@ a{
     text-align: left;
 }
 
+/* ------------COMENTS------------- */
+
+.coments{
+    height: 682px;
+    background: #FAF8F0;
+    position: relative;
+}
+
+.coments__inner{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 1200px;
+    height: 432px;
+    margin: auto;
+    text-align: center;
+
+}
+.coments-orang{
+    margin-bottom: 30px;
+}
+.coments__title{
+    text-align: center;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    color: #52503B;
+    margin-bottom: 12px;
+}
+.coments__subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #52503B;
+}
+
+
+.slider{
+    margin-top: 32px;
+}
+.slider__item{
+    max-width: 5841168px;
+    max-height: 266px;
+    background-color: #fff;
+    padding: 31px;
+    margin: 10px;
+
+}
+.stars{
+    display: flex;
+    align-items: flex-start;
+    padding-bottom: 10px;
+}
+
+.item__text1{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+    color: #333333;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.item__text2{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 20px;
+    color: #333333;
+    text-align: left;
+    padding-bottom: 10px;
+}
+
+.last-text{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.last-text1{
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #333333;
+}
+
+
+
+
+  /* ---------- castim slider arrows -----*/
+
+.text-center li{
+    margin-top: 104px;
+      position: relative;
+      float: left;
+      margin-right: 20px
+}
+.paginator-center{
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: flex-start;
+        margin-top: -60px;
+}
+.prev1 {
+    display: block;
+        height: 60px;
+        width: 60px;
+        background: url('/img/arrows\ left.png') no-repeat;
+        cursor: pointer;
+}
+.next1 {
+    display: block;
+        height: 60px;
+        width: 60px;
+        background: url('/img/arrows\ right.png') no-repeat;
+        cursor: pointer;
+        padding-bottom: 104px;
+}
+
+
+
+/* --------------------- */
