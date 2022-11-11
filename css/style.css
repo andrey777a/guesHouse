@@ -255,7 +255,7 @@ a{
     left: 0;
     right: 0;
     width: 1200px;
-    height: 526px;
+    max-height: 526px;
     margin: auto;
     text-align: center;
 }
@@ -441,3 +441,43 @@ a{
 
 
 /* --------------------- */
+
+.interior2{
+
+    background-image: url(/img/interior2.png);
+   
+}
+
+
+/* -----------------------TOGETHER------- */
+
+
+.together{
+    width: 100vw;
+    height: 366px;
+    position: relative;
+}
+
+.together__inner{
+    max-width: 1168px;
+    max-height: 166px;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    text-align: center;
+}
+
+.inner-text{
+    width: 552px;
+}
+.together-line{
+    margin-left: 0;
+    margin-bottom: 30px;
+}
+.title-together{
+    margin-left: 16px;
+    margin-bottom: 14px;
+}
