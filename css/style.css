@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     font-family: 'Montserrat';
+    overflow-x:hidden;
 }
 *{
 }
@@ -13,7 +14,7 @@ a{
 .container{
     margin:  0  auto;
     padding: 0 15px;
-    max-width: 1083px;
+    max-width: 1168px;
 }
 
 
@@ -547,6 +548,7 @@ a{
 }
 
 .booking__inner{
+
     position: absolute;
     top: 100px;
     right: 120px;
@@ -595,23 +597,146 @@ a{
     border: 3px solid #52503B;
     cursor: pointer;
 }
-
-
-
-
-
-
-
-/* .button{
-    display: flex;
-    background: #FFFFFF;
-    border-radius: 6px;
-    width: 117px;
-    height: 42px;
+.book-btn:hover{
     color: #52503B;
-    align-items: center;
-    justify-content: center;
+    background-color: #fff;
+    border: 3px solid #52503B;
+    cursor: pointer;
+}
+
+/* ----------FOOTER------------------------ */
+
+
+.footer{
+    background: #52503B;
+    color: #FFFFFF;
+    height: 608px;
+    position: relative;
+}
+
+.footer__inner{
+    position: absolute;
+    top: 100px;
+    bottom: 100px;
+    right: 136px;
+    left: 136px;
+}
+
+.top-block{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    top: 100px;
+    margin-bottom: 48px;
+}
+
+.top-pages p{
+    text-transform: uppercase;
+    margin-bottom: 11px;
+}
+.top-pages{
     font-weight: 400;
-    font-size: 16px;
+    font-size: 14px;
     line-height: 20px;
-} */
+    color: #FFFFFF;
+}
+.top-pages li:not(:last-child){
+    margin-bottom: 12px;
+}
+.top-pages li:hover{
+    cursor: pointer;
+
+    text-decoration: underline;
+}
+.social__text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+
+.social__items a:not(:last-child){
+    margin-right: 20px;
+}
+
+.title-subscribe{
+    text-transform: uppercase;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    bottom: 1px;
+}
+
+.discription-subscribe{
+    width: 563px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.subscribe-form{
+    width: 576px;
+    height: 52px;
+    position: relative;
+}
+
+.subscribe-form input{
+    width: 576px;
+    height: 52px;
+    background: #F9FAFB;
+    border: 1px solid #E5E7EB;
+    border-radius: 8px;
+    color: #52503B;
+}
+
+.btn-submit{
+    position: absolute;
+    left: 450px;
+    top: 6px;
+    color: #fff;
+    background: #52503B;
+    border: none;
+}
+
+.btn-submit:hover{
+    color: #52503B;
+    background: #fff;
+    cursor: pointer;
+    border: 3px solid #52503B;
+}
+
+input::-webkit-input-placeholder {
+    padding-left: 30px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #52503B;
+}
+
+
+.down-block{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.text{
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.footer__logo{
+    margin-bottom: 20px;
+}
+
+.footer__contacts{
+    display: flex;
+    margin-bottom: 20px;
+}
