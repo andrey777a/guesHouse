@@ -538,12 +538,80 @@ a{
 }
 
 
+/* ----------BOOKING----------------- */
+
+.booking{
+    background-color: #FAF8F0;
+    height: 478px;
+    position: relative;
+}
+
+.booking__inner{
+    position: absolute;
+    top: 100px;
+    right: 120px;
+    left: 120px;
+    bottom: 100px;
+}
+
+.booking__title{
+    width: 533px;
+    padding-top: 30px;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 36px;
+    margin: 0 auto;
+    color: #52503B;
+}
+.booking__subtitle{
+    width: 533px;
+    padding-top: 14px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto;
+    text-align: center;
+    color: #52503B;
+}
+
+.booking__btn{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    margin-top: 19px;
+}
+
+.booking__btn button{
+    background: #52503B;
+    color: #FFFFFF;
+    border: none;
+}
+.contact-btn{
+    margin-right: 20px;
+}
+.contact-btn:hover{
+    color: #52503B;
+    background-color: #fff;
+    border: 3px solid #52503B;
+    cursor: pointer;
+}
 
 
-/* .advantages__items{
-    display: grid;
-    grid-template-rows: 1fr 1fr 1fr 1fr;
-    grid-template-columns: 1fr 1fr;
-    grid-gap: 3vw;
-    justify-content: start;
+
+
+
+
+
+/* .button{
+    display: flex;
+    background: #FFFFFF;
+    border-radius: 6px;
+    width: 117px;
+    height: 42px;
+    color: #52503B;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
 } */
